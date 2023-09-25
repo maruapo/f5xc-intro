@@ -7,7 +7,11 @@
 #    exit 1
 #fi
 
-VOLTERRA_TOKEN="Kv5+6IJm1ee04aJ3/PjzlA3ffi0="
+##the following  VOLTERRA_TOKEN must be unexpired and valid. See f5xc console Credentials > API Token to create a new token
+VOLTERRA_TOKEN="OLRj7rGLiOWcazLP94JlFDm5vdM="
+
+##the following api_url can be edited to perform this script on the dev tenant (training-dev.console.ves.volterra.io/api). 
+##In that case, note that the API Token must be different too
 api_url="https://training.console.ves.volterra.io/api"
 
 ##NAMESPACES
